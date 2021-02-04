@@ -1,5 +1,7 @@
 .last {
-  height: 700px;
-  width: 400px;
+  margin: auto;
+  height: 80vh;
+  width: 250px;
   background-color: yellow;
+  border-radius: 20px;
 }

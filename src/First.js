@@ -12,8 +12,7 @@ function First() {
   return (
     <div className="first">
       <div className="first_logo">
-        {" "}
-        <p>RO</p> <p>CO</p>
+        <span>RO</span> <span>CO</span>
       </div>
       <div className="first_middle">
         <PersonOutlineOutlinedIcon />

@@ -8,7 +8,28 @@
   align-items: center;
 }
 
+.first_logo {
+  margin-top: 10px;
+  background-color: greenyellow;
+  padding: 5px;
+  height: 32px;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.first_logo > span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .first_middle {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.first_middle > .MuiSvgIcon-root {
+  margin-bottom: 40px;
 }

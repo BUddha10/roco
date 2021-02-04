@@ -1,6 +1,7 @@
 .courses {
+  margin: auto;
   background-color: lightgreen;
   height: 140px;
-  width: 225px;
+  width: 80%;
   border-radius: 20px;
 }

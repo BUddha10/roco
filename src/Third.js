@@ -6,6 +6,9 @@ import Last from "./Last";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import AddIcon from "@material-ui/icons/Add";
+import HelpOutlinedIcon from "@material-ui/icons/HelpOutlined";
 
 function Third() {
   return (
@@ -14,6 +17,7 @@ function Third() {
         <div className="title_left">
           <h1>Overview</h1>
         </div>
+
         <div className="title_right">
           <div className="right_share">
             <span>Share </span>
@@ -22,12 +26,13 @@ function Third() {
           <div className="right_contact">Contact</div>
         </div>
       </div>
+
       <div className="third_body">
         <div className="third_bodyLeft">
           <Avatar name="name" size={125} round="25px" />
 
           <div className="avatar_detail">
-            <p className="avatar_name">buddha tamang</p>
+            <h3 className="avatar_name">buddha tamang</h3>
             <p className="avatar_email">buddhatamang1000@gmail.com</p>
           </div>
 
@@ -48,7 +53,7 @@ function Third() {
           </div>
         </div>
 
-        <div className="third_bodyRight">
+        <div className="third_bodyMiddle">
           <div className="right_title">
             <p>Buddha's class</p>
             <SearchOutlinedIcon />
