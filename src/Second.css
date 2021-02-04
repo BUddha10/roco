@@ -1,0 +1,25 @@
+.second {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffb663;
+}
+
+.second_title {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_search > input {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 100px;
+  padding-left: 10px;
+}

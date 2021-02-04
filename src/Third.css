@@ -1,0 +1,90 @@
+.third {
+  margin: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.third_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third_body {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 5px solid whitesmoke;
+}
+
+.third_bodyLeft {
+  padding-right: 40px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px solid whitesmoke;
+  align-items: center;
+}
+
+.avatar_detail {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar_name {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.work_detail {
+  margin-top: 30px;
+  display: flex;
+  background-color: white;
+}
+
+.work_detail > h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hours_detail,
+.class_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hours_detail > p,
+.class_detail > p {
+  color: darkgray;
+}
+
+.hours_detail {
+  padding-right: 35px;
+  border-right: 5px solid whitesmoke;
+}
+
+.class_detail {
+  padding-left: 20px;
+}
+
+.user_interest {
+  margin-top: 50px;
+}
+
+.third_bodyRight {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 10px;
+}
