@@ -9,9 +9,11 @@ function Courses({ backgroundImg, title, hours, level }) {
         backgroundImage: `url(${backgroundImg})`,
       }}
     >
-      <p>{level}</p>
-      <p>{hours}</p>
-      <p>{title}</p>
+      <div className="top_part">
+        <p className="level">{level}</p>
+        <p className="hours">{hours}</p>
+      </div>
+      <div className="title">{title}</div>
     </div>
   );
 }

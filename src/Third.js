@@ -14,6 +14,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import AddIcon from "@material-ui/icons/Add";
 import HelpOutlinedIcon from "@material-ui/icons/HelpOutlined";
 import InterestCard from "./InterestCard";
+import { IconButton } from "@material-ui/core";
 
 function Third() {
   return (
@@ -25,10 +26,16 @@ function Third() {
 
         <div className="title_right">
           <div className="right_share">
-            <span>Share </span>
-            <ShareOutlinedIcon />
+            <p>
+              <IconButton>Share</IconButton>
+            </p>
+            <IconButton>
+              <ShareOutlinedIcon />
+            </IconButton>
           </div>
-          <div className="right_contact">Contact</div>
+          <div className="right_contact">
+            <IconButton>Contact</IconButton>
+          </div>
         </div>
       </div>
 
@@ -56,12 +63,11 @@ function Third() {
             <div className="user_interestTitle">Interests</div>
             <div className="interestList">
               <InterestCard interest="app design" />
-              <InterestCard interest="app design" />
-              <InterestCard interest="app design" />
-              <InterestCard interest="app design" />
-              <InterestCard interest="app design" />
-              <InterestCard interest="app design" />
-              <InterestCard interest="app design" />
+              <InterestCard interest="web developer" />
+              <InterestCard interest="mobile dev" />
+              <InterestCard interest="ux ui" />
+              <InterestCard interest="backend" />
+              <InterestCard interest="frontend" />
             </div>
           </div>
         </div>
@@ -71,9 +77,24 @@ function Third() {
             <p>Buddha's class</p>
             <SearchOutlinedIcon />
           </div>
-          <Courses />
-          <Courses />
-          <Courses />
+          <Courses
+            backgroundImg={first}
+            title="neutal network"
+            hours="12"
+            level="advanced"
+          />
+          <Courses
+            backgroundImg={second}
+            title="neutal network"
+            hours="12"
+            level="advanced"
+          />
+          <Courses
+            backgroundImg={third}
+            title="neutal network"
+            hours="12"
+            level="advanced"
+          />
         </div>
 
         <Last />

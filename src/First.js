@@ -1,6 +1,8 @@
 import React from "react";
 import "./First.css";
 
+import { IconButton } from "@material-ui/core";
+
 import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined";
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
@@ -15,12 +17,27 @@ function First() {
         <span>RO</span> <span>CO</span>
       </div>
       <div className="first_middle">
-        <PersonOutlineOutlinedIcon />
-        <DescriptionOutlinedIcon />
-        <ShareOutlinedIcon />
-        <ChatBubbleOutlineOutlinedIcon />
-        <SettingsOutlinedIcon />
+        <IconButton>
+          <PersonOutlineOutlinedIcon />
+        </IconButton>
+
+        <IconButton>
+          <DescriptionOutlinedIcon />
+        </IconButton>
+
+        <IconButton>
+          <ShareOutlinedIcon />
+        </IconButton>
+
+        <IconButton>
+          <ChatBubbleOutlineOutlinedIcon />
+        </IconButton>
+
+        <IconButton>
+          <SettingsOutlinedIcon />
+        </IconButton>
       </div>
+
       <div className="first_logout">
         <ExitToAppOutlinedIcon />
       </div>

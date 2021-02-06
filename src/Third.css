@@ -91,7 +91,7 @@
 
 .interestList {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .third_bodyMiddle {
@@ -108,6 +108,31 @@
   justify-content: space-between;
   margin-left: 40px;
   margin-right: 40px;
+  text-transform: capitalize;
+  font-weight: 500;
+  align-items: center;
+}
+
+.right_share {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.right_share > p {
+  margin-right: 15px;
+}
+
+.right_contact {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 40px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: rgb(110, 255, 25);
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
 }
 
 .third_bodyRight {

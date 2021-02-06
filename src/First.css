@@ -33,3 +33,8 @@
 .first_middle > .MuiSvgIcon-root {
   margin-bottom: 40px;
 }
+
+.first_logout > .MuiSvgIcon-root {
+  cursor: pointer;
+  color: limegreen;
+}
