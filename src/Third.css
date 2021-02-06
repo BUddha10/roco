@@ -84,6 +84,16 @@
   margin-top: 50px;
 }
 
+.user_interestTitle {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.interestList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .third_bodyMiddle {
   display: flex;
   flex-direction: column;

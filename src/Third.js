@@ -5,10 +5,15 @@ import Courses from "./Courses";
 import Last from "./Last";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
+import first from "./images/first.jpeg";
+import second from "./images/second.jpeg";
+import third from "./images/third.jpeg";
+
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import AddIcon from "@material-ui/icons/Add";
 import HelpOutlinedIcon from "@material-ui/icons/HelpOutlined";
+import InterestCard from "./InterestCard";
 
 function Third() {
   return (
@@ -48,8 +53,16 @@ function Third() {
           </div>
 
           <div className="user_interest">
-            <p>App design</p>
-            <p> front end</p>
+            <div className="user_interestTitle">Interests</div>
+            <div className="interestList">
+              <InterestCard interest="app design" />
+              <InterestCard interest="app design" />
+              <InterestCard interest="app design" />
+              <InterestCard interest="app design" />
+              <InterestCard interest="app design" />
+              <InterestCard interest="app design" />
+              <InterestCard interest="app design" />
+            </div>
           </div>
         </div>
 

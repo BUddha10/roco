@@ -1,0 +1,7 @@
+.interestCard {
+  margin: 5px;
+  padding: 8px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  text-transform: capitalize;
+}

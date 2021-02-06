@@ -16,12 +16,14 @@
 }
 
 .second_search > input {
+  background-color: darkgray;
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 30px;
   height: 30px;
-  border: none;
   border-radius: 100px;
   padding-left: 10px;
+  border: none;
+  outline: none;
 }
